@@ -1,0 +1,120 @@
+body{
+    background-color:rgb(240 240 240);
+}
+
+.header h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    color: #0866ff;
+    position: absolute;
+    top: 155px;
+    left: 145px;
+    
+}
+
+.content p{
+    font-size: 28px;
+    font-family: Arial;
+    position: absolute;
+    top: 240px;
+    left: 140px;
+}
+
+.form{
+    width: 360px;
+    height: 300px;
+    background-color: #fff;
+    position: absolute;
+    top: 140px;
+    left: 700px;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+
+.form input{
+    width: 350px;
+    height: 45px;
+    font-size: 17px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.btn{
+    width: 370px;
+    height: 45px;
+    background: #0866ff;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btn:hover{
+    background: #1977f3;
+    color: #0866ff;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.fp a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 120px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    
+}
+
+.fp a:hover{
+    text-decoration: underline;
+}
+
+.cna{
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.cna button{
+    width: 200px;
+    height: 45px;
+    background: #42b62b;
+    border: none;
+    margin-left: 80px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.cna button:hover{
+    background: #36a420;
+}
+.cna a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hint p{
+    font-family: sans-serif;
+    font-size: 13px;
+    position: absolute;
+    top: 85%;
+    left: 60%;
+}
+.hint p span{
+    font-weight: bold;
+}
